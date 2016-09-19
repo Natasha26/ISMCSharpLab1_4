@@ -1,0 +1,16 @@
+﻿<Window x:Class="ForConsole6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ForConsole6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Name="button1" Content="Найти сумму выражения" Margin="120,216,126,31" Click="button1_click"/>
+        <Label Margin="37,118,318,159">Введите значение N:</Label>        
+        <TextBox Name="TextBox1" Margin="199,118,183,170"/>
+        
+                
+    </Grid>
+</Window>

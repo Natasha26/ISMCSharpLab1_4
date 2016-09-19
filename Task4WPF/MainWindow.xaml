@@ -1,0 +1,19 @@
+﻿<Window x:Class="Task4WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task4WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Name="button1" Content="Вычислить значение выражения" Margin="120,216,126,31" Click="button1_click"/>
+        <Label Margin="51,38,304,239">Введите значение x:</Label>
+        <Label Margin="51,88,304,190">Введите значение y:</Label>
+        <Label Margin="51,138,304,142">Введите значение z:</Label>
+        <TextBox Name="TextBox1" Margin="199,38,183,250"/>
+        <TextBox Name="TextBox2" Margin="199,85,183,203"/>
+        <TextBox Name="TextBox3" Margin="199,134,183,154"/>
+        
+    </Grid>
+</Window>

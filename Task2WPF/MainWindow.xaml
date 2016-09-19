@@ -1,0 +1,18 @@
+﻿<Window x:Class="Task2WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task2WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Name="button1" Content="Вычислить значение Z1" Margin="130,153,153,112" Grid.ColumnSpan="2" Click="button1_click"></Button>
+        <Button Name="button2" Content="Вычислить значение Z2" Margin="130,240,153,25" Grid.ColumnSpan="2" Click="button2_click"></Button>
+        <Label Margin="163,5,192,281">Введите значение m:</Label>
+        <Label Margin="163,79,191,207">Введите значение n:</Label>
+        <TextBox Name="TextBox1" Margin="176,43,206,245"/>
+        <TextBox Name="TextBox2" Margin="176,112,206,176"/>
+
+    </Grid>
+</Window>
